@@ -49,9 +49,10 @@
             $this->er->set_error($field,$errormsg);
         }
 
-        public function count_error():int
+        public function has_error():bool
         {
-            return $this->er->countall();
+            if($this->er->countall()==0) return false;
+            else return true;
         }
         
     

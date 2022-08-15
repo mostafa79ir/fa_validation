@@ -10,7 +10,7 @@ use App\Validation\Valid;
         $valid->register_isvalid();
 
         //validation db
-        if($valid->count_error() == 0){
+        if(!$valid->has_error()){
             $host = 'localhost:3306';
             $userdb = 'root';
             $passdb = '$z_j4far^Zcd4-y?';
