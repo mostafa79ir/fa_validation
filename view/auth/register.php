@@ -13,7 +13,7 @@ use App\Validation\Valid;
         if(!$valid->has_error()){
             $host = 'localhost:3306';
             $userdb = 'root';
-            $passdb = '$z_j4far^Zcd4-y?';
+            $passdb = '';
             try {
                 $connect = new PDO("mysql:host=$host",$userdb,$passdb);
                 //prepare the statement
