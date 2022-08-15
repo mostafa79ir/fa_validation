@@ -1,0 +1,17 @@
+{
+    "name": "makhariesno/fa_validation",
+    "description": "valid for auth pages",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Validation\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mostafa Akhari"
+        }
+    ],
+    "require": {}
+}
